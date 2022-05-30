@@ -1,0 +1,20 @@
+{
+    "Verify Email Address" : "Potvrdiť e-mailovú adresu",
+    "All rights reserved." : "Všetky práva vyhradené.",
+
+    "Reset Password Notification" : "Zabudnuté heslo - obnova",
+    "You are receiving this email because we received a password reset request for your account." : "tento email ste dostali na základe žiadosti o obnovu zabudnutého hesla.",
+    "Reset Password" : "Obnoviť heslo",
+    "This password reset link will expire in :count minutes." : "Tento odkaz je možné použiť nasledujúcich :count minút.",
+    "If you did not request a password reset, no further action is required." : "Ak ste nežiadali o obnovu hesla, prosím tento email ignorujte - nie je potrebná žiadna akcia",
+
+    "If you’re having trouble clicking the \":actionText\" button, copy and paste the URL below into your web browser:" : "Ak máte problém s kliknutím na tlačítko \":actionText\", prosím skopírujte túto URL adresu do webového prehliadaču:",
+
+    "Please click the button below to verify your email address." : "Kliknutím na tlačidlo nižšie potvrdíte registráciu a overíte svoju e-mailovú adresu.",
+    "If you did not create an account, no further action is required." : "Ak ste nepoužili túto e-mailovú adresu na registráciu, prosím ignorujte tento email.",
+
+    "All rights reserved." : "Všetky práva vyhradené.",
+
+    "Hello!" : "Dobrý deň,",
+    "Regards" : "S pozdravom"
+}

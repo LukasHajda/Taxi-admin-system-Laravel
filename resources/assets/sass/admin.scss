@@ -1,0 +1,160 @@
+$primary: #B8B44B;
+$demi: #B8B44B;
+
+.logout-button{
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.error-color{
+    color: #B8B44B !important;
+}
+
+.tab-content{
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.max-width-800{
+    max-width: 800px !important;
+}
+
+.image-wrapper{
+    position: relative;
+    overflow: hidden;
+    max-width: 300px;
+    img{
+        position: relative;
+        z-index: 3;
+        transition: all .3s ease;
+    }
+    &-back{
+        position: absolute;
+        z-index: 2;
+        background-color: #282727;
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        &-actions{
+            position: absolute;
+            bottom: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            a, button, form{
+                display: inline-block;
+                border: 0;
+            }
+            .show-icon{
+                padding: 3px 6px;
+                background-color: #4c87b9;
+                color: #fff;
+            }
+            .delete-icon{
+                padding: 3px 8px;
+                background-color: #e7505a;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.image-wrapper:hover{
+    img{
+        transform: translateY(-50px);
+    }
+}
+
+.custom-control-label{
+    &:before{
+        top: .10rem;
+    }
+    &::after{
+        top: .12rem;
+    }
+}
+
+.custom-control{
+    margin-top: 8px;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.color-primary{
+    color: #B8B44B;
+}
+
+.color-demi{
+    color: #B8B44B;
+}
+
+.link-demi{
+    transition: all .3s ease;
+    &:hover{
+        color: #707070;
+    }
+}
+
+.admin-list{
+    list-style-type: none;
+    margin: 0;
+    margin-top: 12px;
+    padding: 0;
+    li{
+        display: inline-block;
+        min-width: 25px;
+        margin-right: 22px;
+        a{
+            display: block;
+            transition: all .3s ease;
+            &:hover{
+                color: $primary;
+            }
+        }
+    }
+}
+
+.relative{
+    position: relative;
+}
+
+.admin-list-logo{
+    position: absolute;
+    width: 25px;
+    top: -23px;
+    left: 0;
+}
+
+.action-icon{
+    margin-right: 4px;
+}
+
+#last_name_check {
+    width: 36%;
+}
+
+.btn-primary {
+    background-color: $primary;
+    border: $primary;
+}
+
+.btn-primary:hover {
+    background-color: grey;
+    border: grey;
+}

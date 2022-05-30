@@ -1,0 +1,167 @@
+.logout-button {
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.error-color {
+  color: #B8B44B !important;
+}
+
+.tab-content {
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.max-width-800 {
+  max-width: 800px !important;
+}
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  max-width: 300px;
+}
+
+.image-wrapper img {
+  position: relative;
+  z-index: 3;
+  transition: all 0.3s ease;
+}
+
+.image-wrapper-back {
+  position: absolute;
+  z-index: 2;
+  background-color: #282727;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.image-wrapper-back-actions {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.image-wrapper-back-actions a,
+.image-wrapper-back-actions button,
+.image-wrapper-back-actions form {
+  display: inline-block;
+  border: 0;
+}
+
+.image-wrapper-back-actions .show-icon {
+  padding: 3px 6px;
+  background-color: #4c87b9;
+  color: #fff;
+}
+
+.image-wrapper-back-actions .delete-icon {
+  padding: 3px 8px;
+  background-color: #e7505a;
+  color: #fff;
+}
+
+.image-wrapper:hover img {
+  transform: translateY(-50px);
+}
+
+.custom-control-label:before {
+  top: 0.1rem;
+}
+
+.custom-control-label::after {
+  top: 0.12rem;
+}
+
+.custom-control {
+  margin-top: 8px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.color-primary {
+  color: #B8B44B;
+}
+
+.color-demi {
+  color: #B8B44B;
+}
+
+.link-demi {
+  transition: all 0.3s ease;
+}
+
+.link-demi:hover {
+  color: #707070;
+}
+
+.admin-list {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 12px;
+  padding: 0;
+}
+
+.admin-list li {
+  display: inline-block;
+  min-width: 25px;
+  margin-right: 22px;
+}
+
+.admin-list li a {
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.admin-list li a:hover {
+  color: #B8B44B;
+}
+
+.relative {
+  position: relative;
+}
+
+.admin-list-logo {
+  position: absolute;
+  width: 25px;
+  top: -23px;
+  left: 0;
+}
+
+.action-icon {
+  margin-right: 4px;
+}
+
+#last_name_check {
+  width: 36%;
+}
+
+.btn-primary {
+  background-color: #B8B44B;
+  border: #B8B44B;
+}
+
+.btn-primary:hover {
+  background-color: grey;
+  border: grey;
+}
+
